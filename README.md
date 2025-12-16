@@ -1,6 +1,6 @@
 # gvsbench — GPU Vector Search Benchmark (CUDA)
 
-Tested on A100 40GB VRAM.
+Tested on A100 40GB VRAM with CUDA 13.0
 
 `gvsbench` is a simple command-line benchmark for **GPU vector search scoring** on Linux (Ubuntu 22.04 / 24.04). It measures throughput for a **brute-force inner-product (dot product) top-1 retrieval** workload, implemented as:
 
