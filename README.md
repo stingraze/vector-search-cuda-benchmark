@@ -33,14 +33,17 @@ Quick checks:
 ```bash
 nvidia-smi
 nvcc --version
-
+```
+```bash
 Build:
 nvcc -O3 -std=c++17 gvsbench.cu -lcublas -o gvsbench
-
+```
+```bash
 Help:
 ./gvsbench --help
-
+```
+```bash
 Typical Run:
 ./gvsbench --db 500000 --queries 1024 --dim 256 --chunk 16384 --runs 10 --warmup 2
-
+```
 
